@@ -38,7 +38,7 @@ Follow the instructions below to setup Apace framework.
 
 
 
-## 1. Installation
+## 1. Getting started - Installation
 
 1. Download the framework and put it in your localhost www folder. Example: C:\wamp\www\apace\ .
 
