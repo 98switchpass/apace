@@ -1,9 +1,18 @@
 # apace
 Apace is an easy to use and fully featured open source PHP MVC built to help you write nicer and faster code, in a very simple way.
 
+### Main features:
+- An admin dashboard as default
+- View template engine - you can have multiple master layouts
+- Automatic HTML-compression for performance enhancement
+- Caching your pages
+- Plugins which you use by simply adding {{ myplugin }} in a view
+- Multilanguage applications as default, no setup required
+- Go from local to live development easy with the built in development status configuration
+- A CLI which monitors your framework when you work and compile and minify your css and javascript files for you automatically.
+
 *Apace is not your ordinary MVC, it is built to expand automatically with __one core__ and __multiple apps__.
 This means that you can have all your applications in the same framework which simplifies upgrading your applications and the framework itself, sharing sessions between multiple applications and likewise sharing data between multiple applications.*
-
 
 ### How?
 The answer is what we call internal domainmapping, which can be set up with one line in the configuration file.
@@ -24,19 +33,7 @@ Apace /
 ### Why?
 Becausing expanding your application and sharing data between multiple applications should be simple.
 
-**Apart from this, Apace comes packed with alot of features like:**
-- An admin dashboard as default
-- Automatic HTML-compression for performance enhancement
-- Caching your pages
-- Plugins which you use by simply adding {{ myplugin }} in a view
-- Multilanguage applications as default, no setup required
-- Go from local to live development easy with the built in development status configuration
-- A CLI which monitors your framework when you work and compile and minify your css and javascript files for you automatically.
-
 Follow the instructions below to setup Apace framework.
-
-
-
 
 ## 1. Getting started - Installation
 
