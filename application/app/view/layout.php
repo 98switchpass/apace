@@ -14,7 +14,9 @@
 <body>
 
 	<section class="container">
+
 		<header><h2><?=__('lng.welcome', 'default')?></h2></header>
 			<?=$data['content']?>
 		<footer><p>Language</p> {{ langswitcher }}</footer>
+		
 	</section>
