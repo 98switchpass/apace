@@ -3,6 +3,7 @@ Apace is an easy to use and fully featured open source PHP MVC built to help you
 
 ### Main features:
 - An admin dashboard as default
+- One core multiple applications structure thanks to internal domainmapping
 - View template engine - you can have multiple master layouts
 - Automatic HTML-compression for performance enhancement
 - Caching your pages
