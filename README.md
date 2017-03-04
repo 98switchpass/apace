@@ -243,6 +243,19 @@ it also takes the current language in consideration - (cache is disabled by defa
 
 ## 5. Examples
 
+
+**A standard Controller class**
+
+```
+class IndexController extends Controller {
+
+	public function index() {
+		// Hi
+	}
+
+}
+```
+
 **Mysql PDO - fetch data from database**
 
 ```
