@@ -244,10 +244,22 @@ it also takes the current language in consideration - (cache is disabled by defa
 ## 5. Examples
 
 
-**A standard Controller class**
+**Standard Controller class**
 
 ```
 class IndexController extends Controller {
+
+	public function index() {
+		// Hi
+	}
+
+}
+```
+
+**Standard Model class**
+
+```
+class IndexModel extends Model {
 
 	public function index() {
 		// Hi
