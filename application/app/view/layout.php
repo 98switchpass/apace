@@ -20,3 +20,5 @@
 		<footer><p>Language</p> {{ langswitcher }}</footer>
 		
 	</section>
+
+	<script type="text/javascript" src="<?=Apace::getDataUrl('js/minified');?>app.js"></script>
