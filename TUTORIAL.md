@@ -62,6 +62,43 @@ Inside index.php, delete everything that is already there and instead add this l
 Now open up your application in the browser, for example ```http://apace.local```. 
 You will see the Hello World text that you set inside your controller.
 
+### Creating a database connection
+
+Navigate to engine/settings and open up the local.ini file, it looks something like this:
+
+```
+[server]
+timezone = "Europe/Stockholm"
+
+[database]
+host = "localhost"
+user = ""
+password = ""
+db = ""
+
+[domainmapping]
+http://apace.local/ = "app"
+
+[subdomainmapping]
+http://apace.local/ap-admin/ = "ap-admin"
+```
+
+Under the [database] section, add your username and password credentials to your database and select the database to connect to.
+
+That's it, now you can connect to your database using the built in database connection in the framework. Now create a table in your database called 'user' and add one column called 'username' to the table.
+
+Open up IndexController.php again, and add this line:
+
+```
+$results = Apace::$db->query('SELECT * FROM user);
+
+foreach ($results as $result) {
+      echo $result[username];
+}
+```
+
+This will connect to your database with the credentials you specified and select and display all data from your 'user' table.
+
 ### Adding css
 Now, let's add some basic minified css to our application. For this, we will use the Apace MVC environment CLI which is super easy to use.
 The Apace MVC environment CLI currently only works for windows.
