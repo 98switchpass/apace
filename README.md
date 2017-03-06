@@ -1,6 +1,9 @@
 # apace
 Apace is an easy to use and fully featured open source PHP MVC built to help you write nicer and faster code, in a very simple way.
 
+![alt tag](https://cloud.githubusercontent.com/assets/26118796/23610373/81414338-0272-11e7-9501-4aeea0410dbe.png)
+
+
 ### Main features:
 - An admin dashboard as default
 - One core multiple applications structure thanks to internal domainmapping
@@ -297,4 +300,3 @@ $router = array (
 	),
 );
 ```
-
