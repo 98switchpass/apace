@@ -65,6 +65,8 @@ Go to ```http://apace.local/ap-admin/``` and you will see the main admin-panel. 
 
 That’s it, now you’re ready to start developing.
 
+You can read more below or check out the Hello World tutorial here: https://github.com/apacedev/apace/blob/master/TUTORIAL.md
+
 ## 3. The Apace framework
 
 ### 3.1 Environment
