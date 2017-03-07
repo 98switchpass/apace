@@ -50,7 +50,7 @@ class Config {
 	 */
 	public static function parseSystemConfig($specfile = null) {
 		if ($specfile == null) {
-			$deployment = parse_ini_file(ENGINE_PATH.DS.'settings\deployment.ini', true);
+			$deployment = parse_ini_file(ENGINE_PATH.DS.'settings'.DS.'deployment.ini', true);
 			$config = parse_ini_file(ENGINE_PATH.DS.'settings'.DS.$deployment['deployment'].'.ini', true);
 		} else {
 			$config = parse_ini_file(ENGINE_PATH.DS.'settings'.DS.$specfile.'.ini', true);
@@ -69,7 +69,7 @@ class Config {
 	 */
 	public static function getSystemConfigPath($specfile = null) {
 		if ($specfile == null) {
-			$deployment = parse_ini_file(ENGINE_PATH.DS.'settings\deployment.ini', true);
+			$deployment = parse_ini_file(ENGINE_PATH.DS.'settings'.DS.'deployment.ini', true);
 			$path = ENGINE_PATH.DS.'settings'.DS.$deployment['deployment'].'.ini';
 		} else {
 			$path = ENGINE_PATH.DS.'settings'.DS.$specfile.'.ini';
@@ -85,7 +85,7 @@ class Config {
 	 * @return	array	$config		Array of config settings
 	 */
 	public static function parseAppConfig() {
-		$config = parse_ini_file(APP_PATH.DS.'configuration\config.ini', true);
+		$config = parse_ini_file(APP_PATH.DS.'configuration'.DS.'config.ini', true);
 		return $config;
 	}
 
@@ -119,7 +119,7 @@ class Config {
 	 * @return	string	Value of deployment key
 	 */
 	public static function getDeploymentStatus() {
-		$deployment = parse_ini_file(ENGINE_PATH.DS.'settings\deployment.ini', true);
+		$deployment = parse_ini_file(ENGINE_PATH.DS.'settings'.DS.'deployment.ini', true);
 		return $deployment['deployment'];
 	}
 
