@@ -183,7 +183,7 @@ class Apace {
 	 * @return	string	Referer Url
 	 */	
 	public static function getRefererUrl() {
-		$referer = !empty( $_SERVER['HTTP_REFERER'] ) ? $_SERVER['HTTP_REFERER'] : self::baseUrl();
+		$referer = !empty($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : self::baseUrl();
 		return $referer;
 	}
 
