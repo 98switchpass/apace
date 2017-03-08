@@ -1,6 +1,7 @@
 # apace
 Apace is an easy to use and fully featured open source PHP MVC built to help you write nicer and faster code, in a very simple way.
 
+
 ![alt tag](https://cloud.githubusercontent.com/assets/26118796/23610373/81414338-0272-11e7-9501-4aeea0410dbe.png)
 
 
@@ -14,6 +15,10 @@ Apace is an easy to use and fully featured open source PHP MVC built to help you
 - Multilanguage applications as default, no setup required
 - Go from local to live development easy with the built in development status configuration
 - A CLI which monitors your framework when you work and compile and minify your css and javascript files for you automatically.
+
+
+![alt tag](https://cloud.githubusercontent.com/assets/26118796/23684726/d871b6fe-03a0-11e7-8500-759ef5443f1b.png)
+
 
 *Apace is not your ordinary MVC, it is built to expand automatically with __one core__ and __multiple apps__.
 This means that you can have all your applications in the same framework which simplifies upgrading your applications and the framework itself, sharing sessions between multiple applications and likewise sharing data between multiple applications.*
