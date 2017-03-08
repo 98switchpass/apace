@@ -67,8 +67,8 @@ class Apace {
 		
 		Lang::load(self::$router->getLanguage());
 
-		$Cc = ucfirst(self::$router->getController()). 'Controller';
-		$Cm = strtolower( self::$router->getAction() );
+		$Cc = ucfirst(self::$router->getController()).'Controller';
+		$Cm = strtolower(self::$router->getAction());
 		
 		$Co = new $Cc();
 
