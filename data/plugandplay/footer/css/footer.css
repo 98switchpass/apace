@@ -1,1 +1,1 @@
-#apacefooter{width:100%;background-color:#252525}#apacefooter .content{color:#fff;padding:30px}#apacefooter .content .copyright{float:left}#apacefooter .content .contact{float:right}
+#apacefooter{width:100%;background-color:#252525}#apacefooter .content{color:#fff;padding:30px}#apacefooter .content .copyright{float:left}#apacefooter .content .contact{float:right}@media screen and (max-width:622px){#apacefooter .content{text-align:center}#apacefooter .content .copyright{float:none;display:block}#apacefooter .content .contact{float:none;display:block;margin-top:20px}}
