@@ -1,5 +1,5 @@
 
-var apaceHeader = {
+var apaceNavigation = {
 
 	init: function() {
 
@@ -32,4 +32,4 @@ var apaceHeader = {
 
 }
 
-apaceHeader.init();
+apaceNavigation.init();

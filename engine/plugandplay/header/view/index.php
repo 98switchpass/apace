@@ -14,10 +14,10 @@
 					</div>
 
 					<div id="menu-items">
-						<itm>Home</itm>
-						<itm>About Us</itm>
-						<itm>Products</itm>
-						<itm>Contact</itm>
+						<itm route="/">Home</itm>
+						<itm route="/index/about">About Us</itm>
+						<itm route="/index/products">Products</itm>
+						<itm route="/index/contact">Contact</itm>
 					</div>
 					
 					<div class="clearfix"></div>
@@ -28,14 +28,4 @@
 		</nav>
 	</div>
 
-	<div id="featimage" style="background-image: url(<?=Apace::baseUrl();?>plugandplay/header/img/img2.jpg)">
-		<div class="container">
-			<div class="text">
-				<h1 class="title">Welcome to Apace MVC</h1>
-				<h2>You can change this image and text however you want</h2>
-			</div>
-			<button class="btn">Read more</button> <button class="btn">Contact us</button>
-		</div>
-	</div>
-
-</header> 
+</header>
