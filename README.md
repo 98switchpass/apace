@@ -57,7 +57,7 @@ Follow the instructions below to setup Apace framework.
 
 Noting will work yet, first we have to map our domains to our applications. 
 
-In Apace MVC you have the ability to creaet as many applications as you wish in the ‘application’ folder. This means that when you update the Apace framework, you only have to update it in one place, and all your applications will be updated since they use the same core of Apace framework.
+In Apace MVC you have the ability to create as many applications as you wish in the ‘application’ folder. This means that when you update the Apace framework, you only have to update it in one place, and all your applications will be updated since they use the same core of Apace framework.
 
 It is possible to easily map multiple domains like ```www.mysite.com``` to one of your applications in the framework itself. It is also possible to map subdomains like ```www.mysite.com/admin``` or ```www.anothersite.com/admintwo``` to another app.
 
