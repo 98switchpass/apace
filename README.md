@@ -64,7 +64,6 @@ It is possible to easily map multiple domains like ```www.mysite.com``` to one o
 **Let’s do that now:**
 
 1.	In your Apace folder, open engine/settings/local.ini and under [domainmapping] add ```http://apace.local/ = "app"```. 
-2.	Under [subdomainmapping] add ```http://apace.local/ap-admin/ = "ap-admin"```.
 
 This will tell the framework to load “app” when browsing ```http://apace.local/``` . It works dynamically without the need of further configuration.
 Now visit ```http://apace.local/``` in your browser and you will see the default Apace index view.
