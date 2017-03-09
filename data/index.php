@@ -40,7 +40,6 @@ define('DS', DIRECTORY_SEPARATOR);
 define ('ROOT', dirname(dirname(__FILE__)));
 define ('ENGINE_PATH', ROOT.DS.'engine');
 define ('PLUGINS_PATH', ENGINE_PATH.DS.'plugandplay');
-define ('ADMIN_CONSTANT_PATH', ROOT.DS.'application'.DS.'ap-admin');
 
 require_once(ENGINE_PATH.DS.'core'.DS.'config.php');
 $sc = Config::parseSystemConfig();

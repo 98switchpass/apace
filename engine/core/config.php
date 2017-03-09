@@ -90,30 +90,6 @@ class Config {
 	}
 
 	/**
-	 * Parse only admin config
-	 *
-	 * Parse only the configuration file for the ap-admin application
-	 *
-	 * @return	array	$config		Array of config settings
-	 */
-	public static function parseOnlyAdminConfig() {
-		$config = parse_ini_file(ADMIN_CONSTANT_PATH.DS.'configuration'.DS.'config.ini', true);
-		return $config;
-	}
-
-	/**
-	 * Admin config path
-	 *
-	 * Get the absolute path to the admin configuration
-	 *
-	 * @return	string	Path to admin configuration file
-	 */
-	// Get only the specific ADMIN config path
-	public static function getOnlyAdminConfigPath() {
-		return ADMIN_CONSTANT_PATH.DS.'configuration'.DS.'config.ini';
-	}
-
-	/**
 	 * Get deployment status
 	 *
 	 * @return	string	Value of deployment key

@@ -86,7 +86,7 @@ db = ""
 http://apace.local/ = "app"
 
 [subdomainmapping]
-http://apace.local/ap-admin/ = "ap-admin"
+http://apace.local/admin/ = "admin"
 ```
 
 Under the [database] section, add your username and password credentials to your database and select the database to connect to.

@@ -6,7 +6,6 @@ Apace is an easy to use and fully featured open source PHP MVC built to help you
 
 
 ### Main features:
-- An admin dashboard as default
 - One core multiple applications structure thanks to internal domainmapping
 - View template engine - you can have multiple master layouts
 - Automatic HTML-compression for performance enhancement
@@ -50,7 +49,7 @@ Follow the instructions below to setup Apace framework.
 
 2. Add a virtual host called apace.local from your localhost, point DocumentRoot to "c:/wamp/www/apace" and Directory to "c:/wamp/www/apace/". Don’t forget to update your computers hosts file. If you don’t know how to set up  a virtual host on localhost watch this tutorial: https://www.youtube.com/watch?v=WC8H8sAJLrQ . The framework will not work without a virtual host.
 
-3.	In the Apace framework, go to application/ap-admin/configuration/config.ini and open the file. Under [application], set ```baseurl = http://apace.local/``` . Go to application/app/configuration/config.ini, open the file and set set ```baseurl = http://apace.local/``` . 
+3.	In the Apace framework, go to application/app/configuration/config.ini, open the file and set set ```baseurl = http://apace.local/``` . 
 
 4.	DONE!
 
@@ -67,9 +66,8 @@ It is possible to easily map multiple domains like ```www.mysite.com``` to one o
 1.	In your Apace folder, open engine/settings/local.ini and under [domainmapping] add ```http://apace.local/ = "app"```. 
 2.	Under [subdomainmapping] add ```http://apace.local/ap-admin/ = "ap-admin"```.
 
-This will tell the framework to load “app” when browsing ```http://apace.local/``` and to load “ap-admin” when browsing ```http://apace.local/ap-admin/``` . It works dynamically without the need of further configuration.
+This will tell the framework to load “app” when browsing ```http://apace.local/``` . It works dynamically without the need of further configuration.
 Now visit ```http://apace.local/``` in your browser and you will see the default Apace index view.
-Go to ```http://apace.local/ap-admin/``` and you will see the main admin-panel. You can of course edit this however you want. 
 
 That’s it, now you’re ready to start developing.
 
